@@ -1,0 +1,38 @@
+:root {
+  --color-primary:#00a3b9;
+}
+
+body {
+  background-color: black;
+  font-family: "Open Sans";
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav {
+  background-color: var(--color-primary);
+} */
+
+nav {
+  background-color: transparent;
+  border-color: transparent;
+  }
+  .card-bg
+  {
+    background-color: var(--color-primary);
+    color: white;
+  }
+
+.sec-3{
+    padding-top: 5%;
+  }
+  .container-white{
+    padding: 15%;
+    text-align: center;
+  }
+  footer{
+    background-color:  var(--color-primary);
+  }
