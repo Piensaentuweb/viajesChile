@@ -36,3 +36,13 @@ nav {
   footer{
     background-color:  var(--color-primary);
   }
+
+  @media (min-width: 992px){
+.navbar-collapse {
+      flex-basis: 0 !important;
+  }
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
