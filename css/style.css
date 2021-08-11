@@ -4,12 +4,14 @@
 
 body {
   background-color: black;
-  font-family: "Open Sans";
+  font-family: 'Josefin Sans', sans-serif !important;
+
 }
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Josefin Sans', sans-serif !important;;
 }
 
 /* nav {
@@ -19,6 +21,10 @@ body {
 nav {
   background-color: transparent;
   border-color: transparent;
+
+  }
+  h1{
+    font-family: "Josefin Sans";
   }
   .card-bg
   {
@@ -32,17 +38,9 @@ nav {
   .container-white{
     padding: 15%;
     text-align: center;
+    background-color: white;
   }
   footer{
     background-color:  var(--color-primary);
   }
 
-  @media (min-width: 992px){
-.navbar-collapse {
-      flex-basis: 0 !important;
-  }
-}
-
-.navbar-collapse {
-  flex-grow: 0 !important;
-}
