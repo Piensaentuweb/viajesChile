@@ -2,16 +2,16 @@
   --color-primary:#00a3b9;
 }
 
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
 body {
   background-color: black;
-  font-family: 'Josefin Sans', sans-serif !important;
-
+  font-family: "Open Sans";
 }
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans', sans-serif !important;;
 }
 
 /* nav {
@@ -23,9 +23,6 @@ nav {
   border-color: transparent;
 
   }
-  h1{
-    font-family: "Josefin Sans";
-  }
   .card-bg
   {
     background-color: var(--color-primary);
@@ -35,12 +32,9 @@ nav {
 .sec-3{
     padding-top: 5%;
   }
-  .container-white{
-    padding: 15%;
+.container-white{
     text-align: center;
-    background-color: white;
   }
   footer{
     background-color:  var(--color-primary);
   }
-
