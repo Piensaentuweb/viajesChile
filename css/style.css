@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* nav {
   background-color: var(--color-primary);
 } */
