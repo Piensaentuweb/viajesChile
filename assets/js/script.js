@@ -1,14 +1,16 @@
 
 
-//Inicio JS ScrollTop 
+//Inicio JS Menu cambia de color al scroll
 $(function () {
-    $(document).scroll(function () {
-        var $nav = $(".menu-color-fijo-scroll");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $(window).scroll(function() { 
+        if ($(document).scrollTop() > 50) { 
+          $(".fixed-top").css("background-color", "#00a3b9","color","#999"); 
+        } else {
+          $(".fixed-top").css("background-color", "transparent"); 
+        }
+      });
     });
-});
-//Fin JS ScrollTop 
-
+//Fin JS Menu cambia de color al scroll
 
 
 //Inicio JS Tooltips 
@@ -16,6 +18,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 //Fin JS Tooltips
+
 
 //Inicio Smooth Scrolling
 $(function () {
