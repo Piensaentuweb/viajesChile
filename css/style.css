@@ -17,11 +17,11 @@ body {
   background-color: var(--color-primary);
 } */
 
-nav {
+/* nav {
   background-color: transparent;
   border-color: transparent;
 
-  }
+  } */
   .card-bg
   {
     background-color: var(--color-primary);
@@ -37,3 +37,18 @@ nav {
   footer{
     background-color:  var(--color-primary);
   }
+
+
+#menuFijo{
+  background-color: transparent !important;
+  transition: background-color 0.5s ease;
+}
+.menu-color-fijo-scroll, .scrolled {
+    background-color: rgba(0,0,0,0.9)!important;
+    transition: background-color 1s;
+}
+
+.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}

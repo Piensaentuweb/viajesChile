@@ -26,7 +26,7 @@
 <body>
     <main>
         <!--Inicio Nav-->
-        <nav class="navbar fixed-top navbar-expand-lg p-md-3 navbar-dark ">
+        <nav class="navbar fixed-top navbar-expand-lg p-md-3 navbar-dark menu-color-fijo-scroll  " id="menuFijo">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/viajes.svg" alt="" width="30" height="24"
@@ -207,7 +207,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-12 col-lg-6 text-center">
-                    <p class="h1 text-light font-weight-bold">Viajes Chile</p>
+                    <p class="h1 text-light">Viajes Chile</p>
                 </div>
                 <div class="col-12 col-lg-6 text-center" style="letter-spacing: 4px;">
                     <a href="https://github.com"><i class="fab fa-github-square fa-2x text-light"></i></a>
@@ -231,7 +231,6 @@
     <!-- Fin JS Boostrap -->
 
 
-
     <!-- Inicio JS Tooltips -->
     <script>
         $(function () {
@@ -239,6 +238,15 @@
         })
     </script>
     <!-- Fin JS Tooltips -->
+
+    <script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".menu-color-fijo-scroll");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
 
 
 </body>
